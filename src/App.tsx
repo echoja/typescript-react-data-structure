@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import DiscriminatedUnions from "./pages/DiscriminatedUnions";
 import HoveredWithDelayMs from "./pages/HoveredWithDelayMs";

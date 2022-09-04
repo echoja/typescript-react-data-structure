@@ -1,9 +1,8 @@
-import React, { StrictMode } from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import "./index.css";
 
 const rootElement = document.getElementById("root") as HTMLElement;
 const root = createRoot(rootElement);
