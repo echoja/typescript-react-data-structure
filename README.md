@@ -1,10 +1,24 @@
-# vite-react-ts-starter
-Vitejs starter using React &amp; Typescript.
+# [Typescript + React] 공통 속성을 이용하여 비슷한 타입을 쉽게 관리하기
 
-Styling done with TailwindCSS (using JIT mode).
+<https://springfall.cc/post/9>
 
-Testing done with Jest.
+## 실행 (npm)
 
-# Codesandbox
+```bash
+npm install
+npm run dev
+```
 
-You can also find a codesandbox template of this repo [here](https://codesandbox.io/s/vite-react-starter-ts-zhn976)
+## 실행 (yarn)
+
+```bash
+yarn install
+yarn dev
+```
+
+## 실행 (pnpm)
+
+```bash
+pnpm install
+pnpm dev
+```
