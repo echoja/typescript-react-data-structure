@@ -15,6 +15,7 @@ const triggerSelectItems = [
 
 function SimpleString() {
   const [trigger, setTrigger] = useState<TriggerType>("clicked");
+
   return (
     <div className="simple-form">
       <label htmlFor="select-trigger">조건</label>

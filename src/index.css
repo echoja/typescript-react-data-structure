@@ -23,6 +23,11 @@
       @apply block text-sm font-medium text-gray-700;
     }
 
+    input[type="text"],
+    input[type="number"] {
+      @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm;
+    }
+
     select {
       @apply mt-1 block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm;
     }
