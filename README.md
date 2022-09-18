@@ -2,6 +2,18 @@
 
 <https://springfall.cc/post/9>
 
+## Demo
+
+<https://echoja.github.io/typescript-react-data-structure/>
+
+## github pages 배포
+
+```bash
+pnpm build # 빌드
+git add --all && git commit -m "deploy" # 커밋
+pnpm deploy # github pages에 배포
+```
+
 ## 실행 (npm)
 
 ```bash

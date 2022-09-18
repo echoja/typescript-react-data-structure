@@ -9,7 +9,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/typescript-react-data-structure">
       <App />
     </BrowserRouter>
   </React.StrictMode>
