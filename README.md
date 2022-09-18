@@ -11,7 +11,7 @@
 ```bash
 pnpm build # 빌드
 git add --all && git commit -m "deploy" # 커밋
-pnpm deploy # github pages에 배포
+pnpm gh-pages # github pages에 배포
 ```
 
 ## 실행 (npm)
