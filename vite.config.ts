@@ -4,6 +4,5 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/typescript-react-data-structure/",
   plugins: [react(), codesandbox()],
 });
