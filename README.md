@@ -4,7 +4,7 @@
 
 ## Demo
 
-<https://echoja.github.io/typescript-react-data-structure/>
+<https://typescript-react-data-structure.vercel.app>
 
 ## 실행 (npm)
 
