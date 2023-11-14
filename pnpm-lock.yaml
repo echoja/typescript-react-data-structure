@@ -2,13 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@gsimone/codesandbox-vite-plugin': ^0.0.2
-  '@tailwindcss/forms': ^0.5.6
-  '@types/react': ^18.2.35
-  '@types/react-dom': ^18.2.14
+  '@tailwindcss/forms': ^0.5.7
+  '@types/react': ^18.2.37
+  '@types/react-dom': ^18.2.15
   '@vitejs/plugin-react': ^4.1.1
   autoprefixer: ^10.4.16
   postcss: ^8.4.31
-  prettier: ^3.0.3
+  prettier: ^3.1.0
   react: ^18.2.0
   react-dom: ^18.2.0
   react-router-dom: ^6.18.0
@@ -17,19 +17,19 @@ specifiers:
   vite: ^4.5.0
 
 dependencies:
-  '@tailwindcss/forms': 0.5.6_tailwindcss@3.3.5
+  '@tailwindcss/forms': 0.5.7_tailwindcss@3.3.5
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.18.0_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
   '@gsimone/codesandbox-vite-plugin': 0.0.2
-  '@types/react': 18.2.35
-  '@types/react-dom': 18.2.14
+  '@types/react': 18.2.37
+  '@types/react-dom': 18.2.15
   '@vitejs/plugin-react': 4.1.1_vite@4.5.0
   autoprefixer: 10.4.16_postcss@8.4.31
   postcss: 8.4.31
-  prettier: 3.0.3
+  prettier: 3.1.0
   tailwindcss: 3.3.5
   typescript: 5.2.2
   vite: 4.5.0
@@ -539,8 +539,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: false
 
-  /@tailwindcss/forms/0.5.6_tailwindcss@3.3.5:
-    resolution: {integrity: sha512-Fw+2BJ0tmAwK/w01tEFL5TiaJBX1NLT1/YbWgvm7ws3Qcn11kiXxzNTEQDMs5V3mQemhB56l3u0i9dwdzSQldA==}
+  /@tailwindcss/forms/0.5.7_tailwindcss@3.3.5:
+    resolution: {integrity: sha512-QE7X69iQI+ZXwldE+rzasvbJiyV/ju1FGHH0Qn2W3FKbuYtqp8LKcy6iSw79fVUT5/Vvf+0XgLCeYVG+UV6hOw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
@@ -581,14 +581,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.2.14:
-    resolution: {integrity: sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==}
+  /@types/react-dom/18.2.15:
+    resolution: {integrity: sha512-HWMdW+7r7MR5+PZqJF6YFNSCtjz1T0dsvo/f1BV6HkV+6erD/nA7wd9NM00KVG83zf2nJ7uATPO9ttdIPvi3gg==}
     dependencies:
-      '@types/react': 18.2.35
+      '@types/react': 18.2.37
     dev: true
 
-  /@types/react/18.2.35:
-    resolution: {integrity: sha512-LG3xpFZ++rTndV+/XFyX5vUP7NI9yxyk+MQvBDq+CVs8I9DLSc3Ymwb1Vmw5YDoeNeHN4PDZa3HylMKJYT9PNQ==}
+  /@types/react/18.2.37:
+    resolution: {integrity: sha512-RGAYMi2bhRgEXT3f4B92WTohopH6bIXw05FuGlmJEnv/omEn190+QYEIYxIAuIBdKgboYYdVved2p1AxZVQnaw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -1106,8 +1106,8 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  /prettier/3.0.3:
-    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+  /prettier/3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
