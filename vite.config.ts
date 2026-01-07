@@ -4,5 +4,10 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), codesandbox.default ? codesandbox.default() : codesandbox()],
+  plugins: [
+    react(),
+    // @gsimone/codesandbox-vite-plugin v0.0.2 has ESM export issues with type: module
+    // Using conditional to handle both default and named exports
+    codesandbox.default ? codesandbox.default() : codesandbox(),
+  ],
 });
