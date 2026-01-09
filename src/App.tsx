@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import DiscriminatedUnions from "./pages/DiscriminatedUnions";

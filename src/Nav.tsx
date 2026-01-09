@@ -1,19 +1,10 @@
-import React from "react";
+import { ReactNode } from "react";
 import { NavLink } from "react-router-dom";
 
-const StyledNavLink: React.FC<{ to: string; children: React.ReactNode }> = ({
-  children,
-  to,
-}) => {
+const StyledNavLink = ({ to, children }: { to: string; children: ReactNode }) => {
   return (
-    <NavLink to={to}>
-      {({ isActive }) => {
-        return (
-          <div className={`${isActive ? "text-blue-600 font-bold" : ""}`}>
-            {children}
-          </div>
-        );
-      }}
+    <NavLink to={to} className={({ isActive }) => (isActive ? "text-blue-600 font-bold" : "")}>
+      {children}
     </NavLink>
   );
 };
